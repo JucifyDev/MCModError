@@ -1,0 +1,178 @@
+Task :compileJava FAILED 
+C:\Users\Tyrell Scott\MCreatorWorkspaces\appledog\src\main\java\net\mcreator\appledog\procedures\LockOnProcedure.java:4: error: package net.minecraft.client.entity.player does not exist 
+import net.minecraft.client.entity.player.ClientPlayerEntity; 
+                                         ^ 
+C:\Users\Tyrell Scott\MCreatorWorkspaces\appledog\src\main\java\net\mcreator\appledog\procedures\LockOnProcedure.java:5: error: package net.minecraft.entity does not exist 
+import net.minecraft.entity.Entity; 
+                           ^ 
+C:\Users\Tyrell Scott\MCreatorWorkspaces\appledog\src\main\java\net\mcreator\appledog\procedures\LockOnProcedure.java:6: error: package net.minecraft.entity.player does not exist 
+import net.minecraft.entity.player.PlayerEntity; 
+                                  ^ 
+C:\Users\Tyrell Scott\MCreatorWorkspaces\appledog\src\main\java\net\mcreator\appledog\procedures\LockOnProcedure.java:7: error: package net.minecraft.util.math does not exist 
+import net.minecraft.util.math.BlockPos; 
+                              ^ 
+C:\Users\Tyrell Scott\MCreatorWorkspaces\appledog\src\main\java\net\mcreator\appledog\procedures\LockOnProcedure.java:8: error: package net.minecraft.util.math does not exist 
+import net.minecraft.util.math.RayTraceResult; 
+                              ^ 
+C:\Users\Tyrell Scott\MCreatorWorkspaces\appledog\src\main\java\net\mcreator\appledog\procedures\LockOnProcedure.java:9: error: package net.minecraft.util.math.RayTraceResult does not exist 
+import net.minecraft.util.math.RayTraceResult.Type; 
+                                             ^ 
+C:\Users\Tyrell Scott\MCreatorWorkspaces\appledog\src\main\java\net\mcreator\appledog\procedures\LockOnProcedure.java:10: error: package net.minecraft.util.math.vector does not exist 
+import net.minecraft.util.math.vector.Vector3d; 
+                                     ^ 
+C:\Users\Tyrell Scott\MCreatorWorkspaces\appledog\src\main\java\net\mcreator\appledog\procedures\LockOnProcedure.java:18: error: cannot find symbol 
+    private static BlockPos lastBlockPos = BlockPos.ZERO; 
+                   ^ 
+  symbol:   class BlockPos 
+  location: class LockOnProcedure 
+C:\Users\Tyrell Scott\MCreatorWorkspaces\appledog\src\main\java\net\mcreator\appledog\procedures\LockOnProcedure.java:65: error: cannot find symbol 
+    private static BlockPos getNearestPlayerHeadBlockPos(PlayerEntity player) { 
+                                                         ^ 
+  symbol:   class PlayerEntity 
+  location: class LockOnProcedure 
+C:\Users\Tyrell Scott\MCreatorWorkspaces\appledog\src\main\java\net\mcreator\appledog\procedures\LockOnProcedure.java:65: error: cannot find symbol 
+    private static BlockPos getNearestPlayerHeadBlockPos(PlayerEntity player) { 
+                   ^ 
+  symbol:   class BlockPos 
+  location: class LockOnProcedure 
+C:\Users\Tyrell Scott\MCreatorWorkspaces\appledog\src\main\java\net\mcreator\appledog\procedures\LockOnProcedure.java:18: error: cannot find symbol 
+    private static BlockPos lastBlockPos = BlockPos.ZERO; 
+                                           ^ 
+  symbol:   variable BlockPos 
+  location: class LockOnProcedure 
+C:\Users\Tyrell Scott\MCreatorWorkspaces\appledog\src\main\java\net\mcreator\appledog\procedures\LockOnProcedure.java:27: error: cannot find symbol 
+                ClientPlayerEntity player = minecraft.player; 
+                ^ 
+  symbol:   class ClientPlayerEntity 
+  location: class LockOnProcedure 
+C:\Users\Tyrell Scott\MCreatorWorkspaces\appledog\src\main\java\net\mcreator\appledog\procedures\LockOnProcedure.java:38: error: cannot find symbol 
+                        Entity entity = Minecraft.getInstance().getRenderViewEntity(); 
+                        ^ 
+  symbol:   class Entity 
+  location: class LockOnProcedure 
+C:\Users\Tyrell Scott\MCreatorWorkspaces\appledog\src\main\java\net\mcreator\appledog\procedures\LockOnProcedure.java:38: error: cannot find symbol 
+                        Entity entity = Minecraft.getInstance().getRenderViewEntity(); 
+                                                               ^ 
+  symbol:   method getRenderViewEntity() 
+  location: class Minecraft 
+C:\Users\Tyrell Scott\MCreatorWorkspaces\appledog\src\main\java\net\mcreator\appledog\procedures\LockOnProcedure.java:42: error: cannot find symbol 
+                            minecraft.objectMouseOver = new RayTraceResult(Type.MISS, Vector3d.ZERO, null, new BlockPos(player.getPosX(), player.getPosY() + player.getEyeHeight(), player.getPosZ())); 
+                                     ^ 
+  symbol:   variable objectMouseOver 
+  location: variable minecraft of type Minecraft 
+C:\Users\Tyrell Scott\MCreatorWorkspaces\appledog\src\main\java\net\mcreator\appledog\procedures\LockOnProcedure.java:42: error: cannot find symbol 
+                            minecraft.objectMouseOver = new RayTraceResult(Type.MISS, Vector3d.ZERO, null, new BlockPos(player.getPosX(), player.getPosY() + player.getEyeHeight(), player.getPosZ())); 
+                                                            ^ 
+  symbol:   class RayTraceResult 
+  location: class LockOnProcedure 
+C:\Users\Tyrell Scott\MCreatorWorkspaces\appledog\src\main\java\net\mcreator\appledog\procedures\LockOnProcedure.java:42: error: cannot find symbol 
+                            minecraft.objectMouseOver = new RayTraceResult(Type.MISS, Vector3d.ZERO, null, new BlockPos(player.getPosX(), player.getPosY() + player.getEyeHeight(), player.getPosZ())); 
+                                                                           ^ 
+  symbol:   variable Type 
+  location: class LockOnProcedure 
+C:\Users\Tyrell Scott\MCreatorWorkspaces\appledog\src\main\java\net\mcreator\appledog\procedures\LockOnProcedure.java:42: error: cannot find symbol 
+                            minecraft.objectMouseOver = new RayTraceResult(Type.MISS, Vector3d.ZERO, null, new BlockPos(player.getPosX(), player.getPosY() + player.getEyeHeight(), player.getPosZ())); 
+                                                                                      ^ 
+  symbol:   variable Vector3d 
+  location: class LockOnProcedure 
+C:\Users\Tyrell Scott\MCreatorWorkspaces\appledog\src\main\java\net\mcreator\appledog\procedures\LockOnProcedure.java:42: error: cannot find symbol 
+                            minecraft.objectMouseOver = new RayTraceResult(Type.MISS, Vector3d.ZERO, null, new BlockPos(player.getPosX(), player.getPosY() + player.getEyeHeight(), player.getPosZ())); 
+                                                                                                               ^ 
+  symbol:   class BlockPos 
+  location: class LockOnProcedure 
+C:\Users\Tyrell Scott\MCreatorWorkspaces\appledog\src\main\java\net\mcreator\appledog\procedures\LockOnProcedure.java:43: error: cannot find symbol 
+                            lastBlockPos = BlockPos.ZERO; 
+                                           ^ 
+  symbol:   variable BlockPos 
+  location: class LockOnProcedure 
+C:\Users\Tyrell Scott\MCreatorWorkspaces\appledog\src\main\java\net\mcreator\appledog\procedures\LockOnProcedure.java:47: error: cannot find symbol 
+                        Entity entity = Minecraft.getInstance().getRenderViewEntity(); 
+                        ^ 
+  symbol:   class Entity 
+  location: class LockOnProcedure 
+C:\Users\Tyrell Scott\MCreatorWorkspaces\appledog\src\main\java\net\mcreator\appledog\procedures\LockOnProcedure.java:47: error: cannot find symbol 
+                        Entity entity = Minecraft.getInstance().getRenderViewEntity(); 
+                                                               ^ 
+  symbol:   method getRenderViewEntity() 
+  location: class Minecraft 
+C:\Users\Tyrell Scott\MCreatorWorkspaces\appledog\src\main\java\net\mcreator\appledog\procedures\LockOnProcedure.java:49: error: cannot find symbol 
+                            BlockPos currentBlockPos = getNearestPlayerHeadBlockPos(player); 
+                            ^ 
+  symbol:   class BlockPos 
+  location: class LockOnProcedure 
+C:\Users\Tyrell Scott\MCreatorWorkspaces\appledog\src\main\java\net\mcreator\appledog\procedures\LockOnProcedure.java:51: error: cannot find symbol 
+                                Vector3d lookVec = player.getLookVec(); 
+                                ^ 
+  symbol:   class Vector3d 
+  location: class LockOnProcedure 
+C:\Users\Tyrell Scott\MCreatorWorkspaces\appledog\src\main\java\net\mcreator\appledog\procedures\LockOnProcedure.java:52: error: cannot find symbol 
+                                Vector3d posVec = new Vector3d(currentBlockPos.getX() + 0.5D, currentBlockPos.getY() + 0.5D, currentBlockPos.getZ() + 0.5D); 
+                                ^ 
+  symbol:   class Vector3d 
+  location: class LockOnProcedure 
+C:\Users\Tyrell Scott\MCreatorWorkspaces\appledog\src\main\java\net\mcreator\appledog\procedures\LockOnProcedure.java:52: error: cannot find symbol 
+                                Vector3d posVec = new Vector3d(currentBlockPos.getX() + 0.5D, currentBlockPos.getY() + 0.5D, currentBlockPos.getZ() + 0.5D); 
+                                                      ^ 
+  symbol:   class Vector3d 
+  location: class LockOnProcedure 
+C:\Users\Tyrell Scott\MCreatorWorkspaces\appledog\src\main\java\net\mcreator\appledog\procedures\LockOnProcedure.java:55: error: cannot find symbol 
+                                minecraft.objectMouseOver = new RayTraceResult(Type.BLOCK, currentBlockPos, null, posVec); 
+                                         ^ 
+  symbol:   variable objectMouseOver 
+  location: variable minecraft of type Minecraft 
+C:\Users\Tyrell Scott\MCreatorWorkspaces\appledog\src\main\java\net\mcreator\appledog\procedures\LockOnProcedure.java:55: error: cannot find symbol 
+                                minecraft.objectMouseOver = new RayTraceResult(Type.BLOCK, currentBlockPos, null, posVec); 
+                                                                ^ 
+  symbol:   class RayTraceResult 
+  location: class LockOnProcedure 
+C:\Users\Tyrell Scott\MCreatorWorkspaces\appledog\src\main\java\net\mcreator\appledog\procedures\LockOnProcedure.java:55: error: cannot find symbol 
+                                minecraft.objectMouseOver = new RayTraceResult(Type.BLOCK, currentBlockPos, null, posVec); 
+                                                                               ^ 
+  symbol:   variable Type 
+  location: class LockOnProcedure 
+C:\Users\Tyrell Scott\MCreatorWorkspaces\appledog\src\main\java\net\mcreator\appledog\procedures\LockOnProcedure.java:67: error: cannot find symbol 
+        BlockPos nearestBlockPos = null; 
+        ^ 
+  symbol:   class BlockPos 
+  location: class LockOnProcedure 
+C:\Users\Tyrell Scott\MCreatorWorkspaces\appledog\src\main\java\net\mcreator\appledog\procedures\LockOnProcedure.java:69: error: cannot find symbol 
+        Vector3d playerPosVec = player.getPositionVec(); 
+        ^ 
+  symbol:   class Vector3d 
+  location: class LockOnProcedure 
+C:\Users\Tyrell Scott\MCreatorWorkspaces\appledog\src\main\java\net\mcreator\appledog\procedures\LockOnProcedure.java:70: error: cannot find symbol 
+for (PlayerEntity other : player.world.getPlayers()) { 
+     ^ 
+  symbol:   class PlayerEntity 
+  location: class LockOnProcedure 
+C:\Users\Tyrell Scott\MCreatorWorkspaces\appledog\src\main\java\net\mcreator\appledog\procedures\LockOnProcedure.java:72: error: cannot find symbol 
+Vector3d otherPosVec = other.getPositionVec().add(0, other.getEyeHeight(), 0); 
+^ 
+  symbol:   class Vector3d 
+  location: class LockOnProcedure 
+C:\Users\Tyrell Scott\MCreatorWorkspaces\appledog\src\main\java\net\mcreator\appledog\procedures\LockOnProcedure.java:75: error: cannot find symbol 
+BlockPos blockPos = new BlockPos(otherPosVec); 
+^ 
+  symbol:   class BlockPos 
+  location: class LockOnProcedure 
+C:\Users\Tyrell Scott\MCreatorWorkspaces\appledog\src\main\java\net\mcreator\appledog\procedures\LockOnProcedure.java:75: error: cannot find symbol 
+BlockPos blockPos = new BlockPos(otherPosVec); 
+                        ^ 
+  symbol:   class BlockPos 
+  location: class LockOnProcedure 
+35 errors 
+FAILURE: Build failed with an exception. 
+* What went wrong: 
+Execution failed for task ':compileJava'. 
+> Compilation failed; see the compiler error output for details. 
+* Try: 
+> Run with --stacktrace option to get the stack trace. 
+> Run with --info or --debug option to get more log output. 
+> Run with --scan to get full insights. 
+* Get more help at https://help.gradle.org 
+BUILD FAILED in 3s 
+1 actionable task: 1 executed 
+  
+BUILD FAILED 
+Task completed in 7 seconds 
+  
